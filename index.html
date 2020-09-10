@@ -9,23 +9,31 @@
 <body>
   <nav>
     <ul>
-      <li class="selected">
-        <button onclick="handleOnClick('dia01')">
+      <li >
+        <button type="button" onclick="handleOnClick(1, 'Texto animado em onda')">
           Dia 01
         </button>
       </li>
       <li>
-        <button onclick="handleOnClick('dia02')">
+        <button type="button" class="selected" onclick="handleOnClick(2, 'Efeito de desenho em SVG')">
           Dia 02
         </button>
       </li>
     </ul>
   </nav>
-  
-  <div class="container">
-    <div id="root"></div>
-  </div>
 
+  <h1></h1>
+  
+  <div id="root"></div>
+
+  <footer>
+    <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/tiagoalcantara/30-dias-de-CSS">Desafio 30 Dias de CSS - por Tiago Alcantara</a></p>
+    <p>
+      <a rel="noopener noreferrer" target="_blank" href="https://github.com/tiagoalcantara/">Github</a> |
+      <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/tiago-ferreira-de-alcantara-campos-3126a6144/">Linkedin</a> |
+      <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/umtiagoporai">Twitter</a></p>
+    <p class="smaller">Feito e testado no Chromium v85.0.4183.102</p>
+  </footer>
   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
