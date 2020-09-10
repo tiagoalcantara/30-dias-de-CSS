@@ -1,0 +1,35 @@
+#root {
+  background: var(--space-cadet);
+}
+
+.wavy-text {
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,.2));
+}
+
+.wavy-text span{
+  color: var(--cultured);
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  
+  animation: wavy 2s ease-in-out infinite;
+  animation-delay: calc( .1s * var(--delay));
+}
+
+@keyframes wavy {
+  0% {
+    transform: translateY(0px);
+  }
+  
+  20% {
+    transform: translateY(-20px);
+  }
+  
+  40%, 100% {
+    transform: translateY(0px);
+  }
+ 
+}

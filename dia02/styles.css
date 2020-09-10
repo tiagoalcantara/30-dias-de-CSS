@@ -1,0 +1,29 @@
+#root {
+  background: #DB202C;
+}
+
+p {
+  color: var(--cultured);
+}
+
+svg {
+  width: 80%;
+  height: 80%;
+  fill: transparent;
+  stroke:white;
+  stroke-width: 4px;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  
+  animation: 3s drawing infinite alternate;
+}
+
+
+@keyframes drawing {
+  to {
+    stroke-dashoffset: 2000;
+  }
+  from {
+    stroke-dashoffset: 0;
+  }
+}
