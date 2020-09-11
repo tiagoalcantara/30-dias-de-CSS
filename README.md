@@ -18,6 +18,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 
 * [Dia 01 | Texto animado em onda](#id01)
 * [Dia 02 | Efeito de desenho em SVG](#id02)
+* [Dia 03 | Botão com líquido](#id03)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -36,3 +37,13 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * animation
 * stroke-dasharray
 * stroke-offset
+
+##  Desafio dia 02 - Botão com líquido <a name="id03"></a>
+<p align="center"><img src="https://i.imgur.com/BCK0Pkp.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* @keyframes
+* animation
+* overflow
+* ::before
+* ::after
