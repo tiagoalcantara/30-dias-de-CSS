@@ -19,6 +19,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 01 | Texto animado em onda](#id01)
 * [Dia 02 | Efeito de desenho em SVG](#id02)
 * [Dia 03 | Botão com líquido](#id03)
+* [Dia 04 | Dado de 20 lados](#id04)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -38,7 +39,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * stroke-dasharray
 * stroke-offset
 
-##  Desafio dia 02 - Botão com líquido <a name="id03"></a>
+##  Desafio dia 03 - Botão com líquido <a name="id03"></a>
 <p align="center"><img src="https://i.imgur.com/BCK0Pkp.gif" /></p>
 
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
@@ -47,3 +48,14 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * overflow
 * ::before
 * ::after
+
+##  Desafio dia 04 - Dado de 20 lados <a name="id04"></a>
+<p align="center"><img src="https://i.imgur.com/steu2If.gif" /></p>
+<p align="center">Usei como referência e fonte dos números super específicos esse <a target="_blank" href="https://codepen.io/vcurd/pen/RwaQPrb">CodePen</a></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* @keyframes
+* animation
+* transform-style
+* clip-path
+* transform: rotate, translate e perspective
