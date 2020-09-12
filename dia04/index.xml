@@ -1,0 +1,22 @@
+<div class="dice-wrapper">
+  <div class="dice-face" data-side="1"></div>
+  <div class="dice-face" data-side="2"></div>
+  <div class="dice-face" data-side="3"></div>
+  <div class="dice-face" data-side="4"></div>
+  <div class="dice-face" data-side="5"></div>
+  <div class="dice-face" data-side="6"></div>
+  <div class="dice-face" data-side="7"></div>
+  <div class="dice-face" data-side="8"></div>
+  <div class="dice-face" data-side="9"></div>
+  <div class="dice-face" data-side="10"></div>
+  <div class="dice-face" data-side="11"></div>
+  <div class="dice-face" data-side="12"></div>
+  <div class="dice-face" data-side="13"></div>
+  <div class="dice-face" data-side="14"></div>
+  <div class="dice-face" data-side="15"></div>
+  <div class="dice-face" data-side="16"></div>
+  <div class="dice-face" data-side="17"></div>
+  <div class="dice-face" data-side="18"></div>
+  <div class="dice-face" data-side="19"></div>
+  <div class="dice-face" data-side="20"></div>
+</div>
