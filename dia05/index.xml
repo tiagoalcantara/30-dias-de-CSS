@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <a target="_blank" rel="noopener noreferrer" href="http://twitter.com/umtiagoporai">
+    <button type="button" class="button">
+      <div class="icon"><i class="fab fa-twitter"></i></div>
+      <span>Twitter</span>
+    </button>
+  </a>
+
+  <a href="https://github.com/tiagoalcantara">
+    <button type="button" class="button">
+      <div class="icon"><i class="fab fa-github"></i></div>
+      <span>GitHub</span>
+    </button>
+  </a>
+
+  <a href="https://www.linkedin.com/in/tiago-ferreira-de-alcantara-campos-3126a6144/">
+    <button type="button" class="button">
+      <div class="icon"><i class="fab fa-linkedin"></i></div>
+      <span>Linkedin</span>
+    </button>
+  </a>
+</div>
