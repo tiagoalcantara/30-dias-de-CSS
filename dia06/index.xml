@@ -1,0 +1,5 @@
+<ul class="icon-list">
+  <li class="icon"><button type="button"><i class="fas fa-heart"></i></button></li>
+  <li class="icon"><button type="button"><i class="fas fa-thumbs-up"></i></button></li>
+  <li class="icon"><button type="button"><i class="fas fa-star"></i></button></li>
+</ul>
