@@ -63,7 +63,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 
 ##  Desafio dia 05 - Redes sociais <a name="id05"></a>
 <p align="center"><img src="https://i.imgur.com/xjAhtI5.gif" /></p>
-<p align="center">Vi no desafio "<a target="_blank" href="https://codepen.io/vcurd/pen/RwaQPrb">90 Sites em 90 Dias</a>" do Dorly Neto.</p>
+<p align="center">Vi no desafio "<a target="_blank" href="https://github.com/dorlyneto/90sites90days">90 Sites em 90 Dias</a>" do Dorly Neto.</p>
 
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
 * transition
