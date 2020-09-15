@@ -1,0 +1,42 @@
+#root {
+  justify-content: space-between;
+  width: 800px;
+}
+
+div.card {
+  background-color: transparent;
+  width: 156px;
+  height: 225px;
+  perspective: 800px;
+}
+
+div.card div.inner-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+div.card:hover div.inner-card {
+  transform: rotateY(180deg);
+}
+
+div.card div.inner-card div.front,
+div.card div.inner-card div.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+div.card div.inner-card div.back {
+  transform: rotateY(180deg);
+}
+
+div.card div.inner-card div.front img,
+div.card div.inner-card div.back img {
+  width: 100%;
+  height: 100%;
+}
