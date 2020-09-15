@@ -21,6 +21,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 03 | Botão com líquido](#id03)
 * [Dia 04 | Dado de 20 lados](#id04)
 * [Dia 05 | Redes sociais](#id05)
+* [Dia 06 | Ícones animados](#id06)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -68,3 +69,22 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
 * transition
 * display flex
+* nth-child
+* overflow
+
+##  Desafio dia 06 - Ícones animados <a name="id06"></a>
+
+<p align="center"><img src="https://i.imgur.com/tjMSs0R.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* ::before
+* ::after
+* animation
+
+##  Desafio dia 07 - Hora do duelo <a name="id07"></a>
+<p align="center"><img src="https://i.imgur.com/tKs6P3z.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* transform
+* perspective
+* transform-style
