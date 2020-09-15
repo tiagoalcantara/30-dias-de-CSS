@@ -73,6 +73,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * overflow
 
 ##  Desafio dia 06 - Ícones animados <a name="id06"></a>
+
 <p align="center"><img src="https://i.imgur.com/tjMSs0R.gif" /></p>
 
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
@@ -80,7 +81,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * ::after
 * animation
 
-##  Desafio dia 07 - Hora do duelo <a name="id06"></a>
+##  Desafio dia 07 - Hora do duelo <a name="id07"></a>
 <p align="center"><img src="https://i.imgur.com/tKs6P3z.gif" /></p>
 
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
