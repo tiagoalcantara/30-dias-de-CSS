@@ -1,0 +1,29 @@
+<ul class="icon-list">
+  <li class="icon">
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/umtiagoporai">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="fab fa-twitter" aria-hidden="true"></span>
+    </a>
+  </li>
+  <li class="icon">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/tiagoalcantara">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="fab fa-github" aria-hidden="true"></span>
+    </a>
+  </li>
+  <li class="icon">
+    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tiago-ferreira-de-alcantara-campos-3126a6144/">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="fab fa-linkedin" aria-hidden="true"></span>
+    </a>
+  </li>
+</ul>
