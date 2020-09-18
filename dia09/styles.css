@@ -1,0 +1,108 @@
+#root {
+  background: #121212
+}
+
+div.confetti-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+div.confetti-container div.confetti {
+  width: 15px;
+  height: 15px;
+
+  background-color: #000;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  transform-origin: left top;
+
+  animation: falling 5s linear -2s infinite;
+}
+
+div.confetti-container div.confetti:nth-child(1) {
+  left: 10%;
+  background-color: #ffb3ba;
+  animation-delay: 0;
+}
+div.confetti-container div.confetti:nth-child(2) {
+  left: 20%;
+  background-color: 	#ffdfba;
+  animation-delay: -5s;
+}
+div.confetti-container div.confetti:nth-child(3) {
+  left: 30%;
+  background-color: 	#ffdfba;
+  animation-delay: -3s;
+}
+div.confetti-container div.confetti:nth-child(4) {
+  left: 40%;
+  background-color:#ffffba;
+  animation-delay: -4s;
+}
+div.confetti-container div.confetti:nth-child(5) {
+  left: 50%;
+  background-color: #ffb3ba;
+  animation-delay: -2.5s;
+}
+div.confetti-container div.confetti:nth-child(6) {
+  left: 60%;
+  background-color: #ffffba;
+  animation-delay: -3.8s;
+}
+div.confetti-container div.confetti:nth-child(7) {
+  left: 70%;
+  background-color: #baffc9;
+  animation-delay: -1.5s;
+}
+div.confetti-container div.confetti:nth-child(8) {
+  left: 80%;
+  background-color: #bae1ff;
+  animation-delay: -3.7s;
+}
+div.confetti-container div.confetti:nth-child(9) {
+  left: 90%;
+  background-color: #baffc9;
+  animation-delay: -4.3s;
+}
+div.confetti-container div.confetti:nth-child(10) {
+  left: 100%;
+  background-color: #ffffba;
+  animation-delay: -4.7s;
+}
+div.confetti-container div.confetti:nth-child(11) {
+  left: 100%;
+  background-color: #baffc9;
+  animation-delay: -3.4s;
+}
+div.confetti-container div.confetti:nth-child(12) {
+  left: 100%;
+  background-color: #ffffba;
+  animation-delay: -5.5s;
+}
+div.confetti-container div.confetti:nth-child(13) {
+  left: 100%;
+  background-color: #ffb3ba;
+  animation-delay: -2.8s;
+}
+div.confetti-container div.confetti:nth-child(14) {
+  left: 100%;
+  background-color: #ffb3ba;
+  animation-delay: -1.7s;
+}
+div.confetti-container div.confetti:nth-child(15) {
+  left: 100%;
+  background-color: #bae1ff;
+  animation-delay: -6.2s;
+}
+
+@keyframes falling {
+  0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
+  25% { transform: rotateZ(5deg) rotateY(360deg) translate(-2vw,20vh); }
+  50% { transform: rotateZ(15deg) rotateY(720deg) translate(2vw,60vh); }
+  75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-2vw,80vh); }
+  100% { transform: rotateZ(15deg) rotateY(1440deg) translate(2vw,110vh); }
+}
