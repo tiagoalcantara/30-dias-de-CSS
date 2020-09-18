@@ -24,6 +24,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 06 | Ícones animados](#id06)
 * [Dia 07 | Hora do duelo](#id07)
 * [Dia 08 | Ícones em camadas](#id08)
+* [Dia 09 | Confete](#id09)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -97,3 +98,10 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
 * transition
 * transform: translate rotate skew
+
+##  Desafio dia 09 - Confete <a name="id09"></a>
+<p align="center"><img src="https://i.imgur.com/awTKUcl.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* animation
+* transform
