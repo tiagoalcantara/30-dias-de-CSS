@@ -22,6 +22,8 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 04 | Dado de 20 lados](#id04)
 * [Dia 05 | Redes sociais](#id05)
 * [Dia 06 | Ícones animados](#id06)
+* [Dia 07 | Hora do duelo](#id07)
+* [Dia 08 | Ícones em camadas](#id08)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -88,3 +90,10 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * transform
 * perspective
 * transform-style
+
+##  Desafio dia 08 - Ícones em camadas <a name="id08"></a>
+<p align="center"><img src="https://i.imgur.com/f8cL3nO.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* transition
+* transform: translate rotate skew
