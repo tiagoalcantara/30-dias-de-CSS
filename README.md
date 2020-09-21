@@ -25,6 +25,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 07 | Hora do duelo](#id07)
 * [Dia 08 | Ícones em camadas](#id08)
 * [Dia 09 | Confete](#id09)
+* [Dia 10 | Modo escuro](#id10)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -105,3 +106,12 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 ##### Sobre quais propriedades pesquisei pra criar esse efeito? 
 * animation
 * transform
+
+##  Desafio dia 10 - Modo Escuro <a name="id10"></a>
+<p align="center"><img src="https://i.imgur.com/5kOye14.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* transition
+* :before
+* :after
+* :checked

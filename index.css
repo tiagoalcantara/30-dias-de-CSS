@@ -41,8 +41,6 @@ body {
 }
 
 nav {
-  position: absolute;
-  top: 0px;
   width: 100%;
   padding: 16px;
 
@@ -56,6 +54,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   height: 100%;
 }
@@ -96,7 +95,6 @@ nav ul li button:hover {
 
 h1 {
   font-size: 48px;
-  margin-top: 136px;
 }
 
 footer {
@@ -126,4 +124,30 @@ footer p.smaller {
 footer p a {
   text-decoration: none;
   color: var(--space-cadet-lighter)
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    margin: 8px 0;
+  }
+
+  nav {
+    height: 100%;
+    padding: 4px;
+  }
+
+  nav ul li button {
+    font-size: 16px;
+    margin: 4px;
+  }
+
+  nav ul li button.selected::after {
+    content:'';
+    width: 48px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    border-bottom: 2px solid var(--cultured); 
+  }
 }
