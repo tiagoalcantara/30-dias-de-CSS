@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <input id="custom-checkbox" type="checkbox"/>  
+
+  <div class="text-wrapper">
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, optio ducimus. Vitae necessitatibus quasi doloribus officiis sapiente. Modi accusantium neque repudiandae quasi doloribus beatae eius, eveniet mollitia nihil reiciendis exercitationem.
+    </p>
+  </div>
+</div>
