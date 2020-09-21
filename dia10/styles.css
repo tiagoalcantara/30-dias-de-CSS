@@ -1,0 +1,76 @@
+div.wrapper {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.wrapper input[type="checkbox"] {
+  appearance: none;
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: #092c3e;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s;
+  outline: none;
+}
+
+
+div.wrapper input[type="checkbox"]:checked {
+  background: #ccc;
+}
+
+div.wrapper input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #ccc;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: transform ease-in 0.5s;
+}
+
+div.wrapper input[type="checkbox"]:checked:before {
+  transform: translateX(-50px);
+}
+
+div.wrapper input[type="checkbox"]:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: #092c3e;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: translateX(50px);
+  transition: transform ease-in 0.5s;
+}
+
+div.wrapper input[type="checkbox"]:checked:after {
+  transform: translateX(0);
+}
+
+div.wrapper div.text-wrapper {
+  padding: 24px;
+  background-color:  #092c3e;
+  border-radius: 20px;
+  color: #eee;
+  transition: all ease-in-out 0.5s;
+}
+
+div.wrapper div.text-wrapper p.text {
+  text-align: justify;
+}
+
+div.wrapper input[type="checkbox"]:checked ~ div.text-wrapper {
+  background-color: #eee;
+  color: #092c3e;
+}
