@@ -1,0 +1,77 @@
+#root {
+  background: #009FDD;
+  height: 500px;
+  width: 80%;
+}
+
+section.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+section.card-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+:section.card-list:-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+section.card-list::-webkit-scrollbar-thumb {
+  background: #A8d59e;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25);
+}
+
+section.card-list::-webkit-scrollbar-thumb:hover {
+  background: #6EB440;
+}
+
+section.card-list article.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  position: relative;
+  height: 350px;
+  width: 300px;
+  min-width: 200px;
+  padding: 16px;
+
+  border-radius: 16px;
+  background: #0F6BB3;
+  box-shadow: -16px 0 48px rgba(0,0,0,.3);
+
+  color: #dfdfdf;
+
+  transition: transform 0.2s;
+}
+
+section.card-list article.card img {
+  width: 200px;
+  height: 200px;
+
+  object-fit: contain;
+  object-position: 50% -10%;
+  
+
+}
+
+section.card-list article.card:not(:first-child){
+  margin-left: -200px;
+} 
+
+section.card-list article.card:hover {
+  transform: translateY(-8px);
+}
+
+section.card-list article.card:hover ~ article.card {
+  transform: translateX(204px);
+}

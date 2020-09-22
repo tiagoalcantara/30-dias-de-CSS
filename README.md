@@ -26,6 +26,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 08 | Ícones em camadas](#id08)
 * [Dia 09 | Confete](#id09)
 * [Dia 10 | Modo escuro](#id10)
+* [Dia 11 | Lista de cards](#id11)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -115,3 +116,12 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * :before
 * :after
 * :checked
+
+##  Desafio dia 11 - Lista de Cards <a name="id11"></a>
+<p align="center"><img src="https://i.imgur.com/3S6VPwB.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* transition
+* :not
+* :first-child
+* display: flex
