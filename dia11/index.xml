@@ -1,0 +1,34 @@
+<section class="card-list">
+  <article class="card">
+    <header class="card-header">
+      <h2>Finn</h2>
+    </header>
+    <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/7e/Finn_with_bionic_arm-0.png/revision/latest/scale-to-width-down/240?cb=20200424113359" alt="Finn"/>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h2>Jake</h2>
+    </header>
+    <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3b/Jakesalad.png/revision/latest/scale-to-width-down/240?cb=20190807133015" alt="Jake"/>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h2>BMO</h2>
+    </header>
+    <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/8/81/BMO.png/revision/latest/scale-to-width-down/310?cb=20200613123757" alt="BMO"/>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h2>Rei Gelado</h2>
+    </header>
+    <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/6/64/Original_Ice_King.png/revision/latest/scale-to-width-down/150?cb=20160405041324" alt="Rei Gelado"/>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <h2>Marceline</h2>
+    </header>
+    <img src="https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/e0/Marceline_Stock_Night.png/revision/latest?cb=20190807133150" alt="Marceline"/>
+  </article>
+
+
+</section>
