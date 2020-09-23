@@ -27,6 +27,7 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * [Dia 09 | Confete](#id09)
 * [Dia 10 | Modo escuro](#id10)
 * [Dia 11 | Lista de cards](#id11)
+* [Dia 12 | Troca de texto](#id12)
 
 ##  Desafio dia 01 - Texto animado em onda <a name="id01"></a>
 <p align="center"><img src="https://i.imgur.com/xUNCVrB.gif" /></p>
@@ -125,3 +126,10 @@ Você pode ver uma prévia no navegador clicando <strong>[aqui](https://tiagoalc
 * :not
 * :first-child
 * display: flex
+
+##  Desafio dia 12 - Troca de Texto <a name="id12"></a>
+<p align="center"><img src="https://i.imgur.com/IH8syP7.gif" /></p>
+
+##### Sobre quais propriedades pesquisei pra criar esse efeito? 
+* animation
+* overflow
