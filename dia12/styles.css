@@ -1,0 +1,56 @@
+#root {
+  width: 100%;
+}
+
+div.wrapper {
+  text-align: center;
+  display: block;
+  padding-top: 200px;
+  position: fixed;
+  width: 100%;
+  bottom: 45%;
+
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div.wrapper div.flip {
+  height: 50px;
+  overflow: hidden;
+}
+
+div.wrapper div.flip > div > div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+div.wrapper div.flip div:first-child {
+  animation: move 8s linear infinite;
+}
+
+div.wrapper div.flip div:nth-child(1) div{
+  background-color: #E50914
+}
+
+div.wrapper div.flip div:nth-child(2) div{
+  background-color: #ccc
+}
+
+div.wrapper div.flip div:nth-child(3) div{
+  background-color: #FFC72C
+}
+
+@keyframes move {
+  0% {margin-top:0px;}
+  12.5% {margin-top:-80px;}
+  25% {margin-top:-80px;}
+  37.5% {margin-top:-170px;}
+  50% {margin-top:-170px;}
+  62.5% {margin-top:-80px;}
+  75% {margin-top:-80px;}
+  87.5% {margin-top:0px;}
+}
